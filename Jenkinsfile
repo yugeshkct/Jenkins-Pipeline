@@ -4,7 +4,7 @@ pipeline{
         stage('checkout'){   
             steps{   
                 echo "cloning remote repository"
-            } 
+            }   
         } 
         stage('building'){
             steps{
