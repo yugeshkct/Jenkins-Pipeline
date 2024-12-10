@@ -2,7 +2,7 @@ pipeline{
     agent any
     stages{ 
         stage('checkout'){  
-            steps{
+            steps{ 
                 echo "cloning remote repository"
             }
         }
