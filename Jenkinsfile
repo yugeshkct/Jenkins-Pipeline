@@ -7,7 +7,7 @@ pipeline{
             }     
         }  
         stage('building'){
-            steps{
+            steps{ 
                 echo "producing a software"
             }
         }
